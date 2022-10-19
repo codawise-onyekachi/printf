@@ -1,5 +1,7 @@
 #include "main.h"
 
+void print_buffer(char buffer[], int *buff_ind);
+
 /**
  * _printf - formatted output conversion and print data.
  * @format: input string

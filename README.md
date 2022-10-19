@@ -1,12 +1,13 @@
 0x11. C - printf
 
 The printf project is a collaboration between Onyekachi Uzoma and Paul Akinleye,students of Software Engineering at ALX, were a function named "_printf" imitates the actual "printf" command located in the stdio.h library.
-_printf() is a function that performs formatted output conversion 
-and print data.
-Where format contains the string that is printed. As _printf() is variadic function, it can receives n arguments that replace by n tags 
+_printf() is a function that performs formatted output conversion
+and print data.Where format contains the string that is printed.
+As _printf() is variadic function,
+it can receives n arguments that replace by n tags
 written inside the string.The format tags prototype is the following:
 %[flags][length]specifier
-If the program runs successfully, 
+If the program runs successfully,
 the return value is the amount of chars printed.
 
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life

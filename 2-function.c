@@ -116,12 +116,12 @@ int print_reverse(va_list types, char buffer[],
 	int i, count = 0;
 
 	UNUSED(buffer);
-	UNUSED(flag);
+	UNUSED(flags);
 	UNUSED(width);
 	UNUSED(size);
 
 	str = va_arg(types, char *);
-	if (str ==NULL)
+	if (str == NULL)
 	{
 		UNUSED(precision);
 		str = ")Null(";
@@ -166,7 +166,7 @@ int print_rot13string(va_list types, char buffer[],
 
 	str = va_arg(types, char *);
 	UNUSED(buffer);
-	UNUSED(flag);
+	UNUSED(flags);
 	UNUSED(width);
 	UNUSED(precision);
 	UNUSED(size);

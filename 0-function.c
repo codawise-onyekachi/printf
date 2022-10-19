@@ -52,7 +52,7 @@ int print_string(va_list types, char buffer[],
 			str = "  ";
 	}
 	while (str[length] != '\0')
-		lenght++;
+		length++;
 	if (precision >= 0 && precision < length)
 		length = precision;
 	if (width > length)
@@ -132,7 +132,7 @@ int print_int(va_list types, char buffer[],
 		num = (unsigned long int)((-1) * n);
 		is_negative = 1;
 	}
-	while ( num > 0)
+	while (num > 0)
 	{
 		buffer[i--] = (num % 10) + '0';
 		num = num / 10;
@@ -181,7 +181,9 @@ int print_binary(va_list types, char buffer[],
 		if (sum || i == 31)
 		{
 			char z = '0' + a[i];
+
 			write(1, &z, 1);
+
 			count++;
 		}
 	}
